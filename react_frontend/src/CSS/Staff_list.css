@@ -1,0 +1,93 @@
+.page_header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.search_input input {
+    padding: 8px 12px;
+    border: 1px solid black;
+}
+
+.search_button button {
+    cursor: pointer;
+}
+
+.Add_button{
+    display: flex;
+    justify-content: right;
+    padding-bottom: 20px;
+}
+
+
+.Add_button button{
+    background-color:  rgb(28, 147, 65);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.Add_button button:hover {
+    background-color: black;
+}
+
+
+.Info_list{
+    width: 100%; 
+    max-width: 1100px; 
+    margin: 20px auto; 
+    padding: 15px; 
+    overflow-x: auto;
+}
+
+.Info_table{
+    width: 100%; 
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+
+.Info_table th{
+    border: 1px solid black; 
+    padding: 10px;
+    background-color: lightgray;
+
+}
+
+.Info_table td{
+    border: 1px solid black; 
+    padding: 10px;
+}
+
+.edit_block{
+    text-align: center;
+}
+
+.Info_table button{
+    text-align: center;
+    justify-content: center;
+    background-color:  rgb(0, 140, 255);
+    color: white;
+    border: none;
+    cursor: pointer
+}
+
+.Info_table button:hover {
+    background-color: black;
+}

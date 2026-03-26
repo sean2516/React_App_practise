@@ -1,0 +1,116 @@
+.page_header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info_form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    border: 1px solid black;
+    
+}
+
+.exit_button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.exit_button button{
+    cursor: pointer;
+}
+
+.info_form form {
+    margin-top: 40px;
+}
+
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.info_form label {
+    margin-bottom: 5px;
+}
+
+.info_form input {
+    padding: 8px;
+    border: 1px solid black;   
+}
+
+.info_form select {
+  font-size: 15px; 
+  padding: 8px; 
+}
+
+.info_form option {
+  font-size: 14px;  
+  padding: 8px; 
+}
+
+.save_info_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.save_info_button button{
+    background-color: rgb(28, 147, 65);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.save_info_button button:hover {
+    background-color: black;
+}
+
+
+.edit_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px
+}
+
+.edit_buttons div {
+    flex: 1;
+}
+
+.edit_buttons button {
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    border: none;
+}
+
+
+.edit_save_button button{
+    background-color: rgb(0, 140, 255);
+    border: none;
+    color: white;
+}
+
+.edit_save_button button:hover {
+    background-color: black;
+}
+
+.edit_delete_button button{
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.edit_delete_button button:hover {
+    background-color: black;
+}
